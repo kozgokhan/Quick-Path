@@ -1,3 +1,10 @@
+% QP quick path browser for matlab
+% 
+% available commands:
+%      qp <pathname> - browses to the path
+%      qp qplist - lists all added paths
+%      qp qpstats - statistics
+
 function qp(command)
     qpdb = qpf_dbread();
     if strcmp(command, 'qplist')
